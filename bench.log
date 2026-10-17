@@ -1,0 +1,8 @@
+=== 1. Minimax vs Alpha-Beta (start position + a middlegame position) ===
+start      depth 2: minimax    877 nodes (0.23s) | +alpha-beta    324 (0.06s) | +move ordering    324 (0.06s) | same value: True
+start      depth 3: minimax  21699 nodes (5.46s) | +alpha-beta   3200 (0.72s) | +move ordering   3165 (0.74s) | same value: True
+middlegame depth 2: minimax 162536 nodes (68.58s) | +alpha-beta   4116 (1.69s) | +move ordering   2973 (1.19s) | same value: True
+
+=== 2. Playing strength (10-ply random opening, adjudicated on material after 80 plies) ===
+Baseline (heuristic, depth 2) vs Random: wins 4  losses 0  draws 0
+Full AI (heuristic+NN+fuzzy+GA) vs Baseline: wins 1  losses 4  draws 3

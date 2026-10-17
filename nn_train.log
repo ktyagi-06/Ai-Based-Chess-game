@@ -1,0 +1,15 @@
+Generating training data ...
+Training on 10800 positions, validating on 1200 ...
+  epoch   0  MSE = 0.32171
+  epoch  25  MSE = 0.18055
+  epoch  50  MSE = 0.18251
+  epoch  75  MSE = 0.17455
+  epoch 100  MSE = 0.16693
+  epoch 125  MSE = 0.16797
+  epoch 150  MSE = 0.16519
+  epoch 175  MSE = 0.16002
+  epoch 200  MSE = 0.16295
+  epoch 225  MSE = 0.16270
+  epoch 249  MSE = 0.15220
+Validation MSE = 0.23023  (variance of targets = 0.48775)
+Saved nn_weights.npz  (136s)

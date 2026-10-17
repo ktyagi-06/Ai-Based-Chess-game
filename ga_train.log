@@ -1,0 +1,5 @@
+Gen 0: best=+2.98 avg=+0.14  (329s)  knight=357.0 bishop=313.6 rook=460.2 queen=835.5 w_mob=5.1 w_nn=0.3
+Gen 1: best=+4.28 avg=+1.33  (207s)  knight=357.0 bishop=313.6 rook=460.2 queen=835.5 w_mob=5.2 w_nn=0.3
+Gen 2: best=+4.30 avg=+2.86  (186s)  knight=357.0 bishop=313.6 rook=450.0 queen=835.5 w_mob=5.2 w_nn=0.3
+Validation on unseen openings: evolved=-3.28  seed-default=-1.04  -> using seed-default genes
+Saved best_params.json
